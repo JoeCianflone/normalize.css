@@ -6,7 +6,8 @@
   "style": "normalize.css",
   "files": [
     "LICENSE.md",
-    "normalize.css"
+    "normalize.css",
+    "_normalize.scss"
   ],
   "devDependencies": {
     "stylelint": "^6.7.1",
