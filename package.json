@@ -1,6 +1,6 @@
 {
   "name": "normalize.css",
-  "version": "4.2.0",
+  "version": "5.0.0",
   "description": "A modern alternative to CSS resets",
   "main": "normalize.css",
   "style": "normalize.css",
@@ -10,8 +10,8 @@
     "_normalize.scss"
   ],
   "devDependencies": {
-    "stylelint": "^6.7.1",
-    "stylelint-config-standard": "^9.0.0"
+    "stylelint": "^7.3.1",
+    "stylelint-config-standard": "^13.0.2"
   },
   "scripts": {
     "test": "stylelint normalize.css"
@@ -23,7 +23,7 @@
   ],
   "license": "MIT",
   "bugs": "https://github.com/necolas/normalize.css/issues",
-  "homepage": "https://necolas.github.io/normalize.css#readme",
+  "homepage": "https://necolas.github.io/normalize.css",
   "stylelint": {
     "extends": "stylelint-config-standard"
   }
