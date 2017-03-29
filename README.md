@@ -48,6 +48,7 @@ See https://necolas.github.io/normalize.css/latest/normalize.css
 * Firefox (last two)
 * Firefox ESR
 * Internet Explorer 8+
+* iOS Safari (last two)
 * Opera (last two)
 * Safari 6+
 
@@ -75,8 +76,8 @@ browsers. [Source](https://gist.github.com/413930).
 
 Adding `overflow: hidden` fixes IE9's SVG rendering. Earlier versions of IE
 don't support SVG, so we can safely use the `:not()` and `:root` selectors that
-modern browsers use in the default UA stylesheets to apply this style. [Source]
-(https://lists.w3.org/Archives/Public/public-svg-wg/2008JulSep/0339.html).
+modern browsers use in the default UA stylesheets to apply this style.
+[Source](https://lists.w3.org/Archives/Public/public-svg-wg/2008JulSep/0339.html).
 
 #### `select`
 
